@@ -10,14 +10,18 @@
     padding: 15px;
     margin: 0 auto;
 }
+
 .form-signin .form-signin-heading, .form-signin .checkbox
 {
     margin-bottom: 10px;
+
 }
+
 .form-signin .checkbox
 {
     font-weight: normal;
 }
+
 .form-signin .form-control
 {
     position: relative;
@@ -28,22 +32,26 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .form-signin .form-control:focus
 {
     z-index: 2;
 }
+
 .form-signin input[type="text"]
 {
     margin-bottom: -1px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
 .form-signin input[type="password"]
 {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
 .account-wall
 {
     margin-top: 20px;
@@ -53,6 +61,7 @@
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
+
 .login-title
 {
     color: #555;
@@ -60,6 +69,7 @@
     font-weight: 400;
     display: block;
 }
+
 .profile-img
 {
     width: 96px;
@@ -70,10 +80,12 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
+
 .need-help
 {
     margin-top: 10px;
 }
+
 .new-account
 {
     display: block;
@@ -90,6 +102,7 @@
 	width: 100%;
 	height: 100px;
 }
+
 
 
 
