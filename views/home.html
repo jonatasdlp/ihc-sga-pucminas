@@ -1,287 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
-  <title>SGA - PUC Minas</title>
+<title>SGA - PUC Minas</title>
 
-  <link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap.css" rel="stylesheet">
 
-  <link href="../css/sb-admin.css" rel="stylesheet">
-  <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-  <!--<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">-->
+<link href="../css/sb-admin.css" rel="stylesheet">
+<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">-->
 
-  <script src="../js/vendor/jquery.min.js"></script>
-  <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  <script src="../js/vendor/bootstrap.js"></script>
+<script src="../js/vendor/jquery.min.js"></script>
+<script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="../js/vendor/bootstrap.js"></script>
 </head>
 
 <body>
 
-  <div id="wrapper">
+<div id="wrapper">
 
-    <!-- Sidebar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html" style="height: 40px;"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;SGA - <small>PUC Minas</small></a>
-      </div>
+<!-- Sidebar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	  <span class="sr-only">Toggle navigation</span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="index.html" style="height: 40px;"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;SGA - <small>PUC Minas</small></a>
+  </div>
 
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav side-nav">
-          <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Atividades</a></li>
-          <li><a href="#"><i class="fa fa-calendar"></i> Calendário</a></li>
-          <li><a href="#"><i class="fa fa-file"></i> Lançamento de Notas</a></li>
-          <li><a href="#"><i class="fa fa-folder-open"></i> Conteúdo</a></li>
-          <li><a href="blank-page.html"><i class="glyphicon glyphicon-transfer"></i> Recursos</a></li>
-          <li><a href="bootstrap-grid.html"><i class="fa fa-envelope"></i> Mensagens</a></li>
-          <li><a href="bootstrap-grid.html"><i class="fa fa-wrench"></i> Configurações</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Mais opções <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Opção</a></li>
-              <li><a href="#">Opção</a></li>
-              <li><a href="#">Opção</a></li>
-              <li><a href="#">Opção</a></li>
-            </ul>
-          </ul>
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+	<ul class="nav navbar-nav side-nav">
+	  <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Atividades</a></li>
+	  <li><a href="#"><i class="fa fa-calendar"></i> Calendário</a></li>
+	  <li><a href="#"><i class="fa fa-file"></i> Lançamento de Notas</a></li>
+	  <li><a href="#"><i class="fa fa-folder-open"></i> Conteúdo</a></li>
+	  <li><a href="blank-page.html"><i class="glyphicon glyphicon-transfer"></i> Recursos</a></li>
+	  <li><a href="bootstrap-grid.html"><i class="fa fa-envelope"></i> Mensagens</a></li>
+	  <li><a href="bootstrap-grid.html"><i class="fa fa-wrench"></i> Configurações</a></li>
+	  <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Mais opções <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="#">Opção</a></li>
+		  <li><a href="#">Opção</a></li>
+		  <li><a href="#">Opção</a></li>
+		  <li><a href="#">Opção</a></li>
+		</ul>
+	  </ul>
 
-          <ul class="nav navbar-nav navbar-right navbar-user">
-            <li class="dropdown messages-dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Mensagens <span class="label label-info">3</span> <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">3 Novas Mensagens</li>
-                <li class="message-preview">
-                  <a href="#">
-                    <span class="avatar"><img src="http://placehold.it/50x50"></span>
-                    <span class="name">José da Silva:</span>
-                    <span class="message">Pergunta do alunos via mensagem...</span>
-                    <span class="time"><i class="fa fa-clock-o"></i> 18:34</span>
-                  </a>
-                </li>
-                <li class="divider"></li>
-                <li class="message-preview">
-                  <a href="#">
-                    <span class="avatar"><img src="http://placehold.it/50x50"></span>
-                    <span class="name">José da Silva:</span>
-                    <span class="message">Pergunta do alunos via mensagem...</span>
-                    <span class="time"><i class="fa fa-clock-o"></i> 18:34</span>
-                  </a>
-                </li>
-                <li class="divider"></li>
-                <li class="message-preview">
-                  <a href="#">
-                    <span class="avatar"><img src="http://placehold.it/50x50"></span>
-                    <span class="name">José da Silva:</span>
-                    <span class="message">Pergunta do alunos via mensagem...</span>
-                    <span class="time"><i class="fa fa-clock-o"></i> 18:34</span>
-                  </a>
-                </li>
-                <li class="divider"></li>
-                <li><a href="#">Ver todas</a></li>
-              </ul>
-            </li>
-            <li class="dropdown alerts-dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> Alertas <span class="label label-danger">2</span> <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Atividade <span class="label label-default">Lembrete</span></a></li>
-                <li><a href="#">Notas <span class="label label-danger">Importante</span></a></li>
-                <li class="divider"></li>
-                <li><a href="#">Ver Mais</a></li>
-              </ul>
-            </li>
-            <li class="dropdown user-dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Prf. Demonstração <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="fa fa-user"></i> Meus dados</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i> Mensagens <span class="badge">3</span></a></li>
-                <li><a href="#"><i class="fa fa-gear"></i> Configurações</a></li>
-                <li class="divider"></li>
-                <li><a href="login.html"><i class="fa fa-power-off"></i> Sair</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </nav>
+	  <ul class="nav navbar-nav navbar-right navbar-user">
+		<li class="dropdown messages-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Mensagens <span class="label label-info">3</span> <b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			<li class="dropdown-header">3 Novas Mensagens</li>
+			<li class="message-preview">
+			  <a href="#">
+				<span class="avatar"><img src="http://placehold.it/50x50"></span>
+				<span class="name">José da Silva:</span>
+				<span class="message">Pergunta do alunos via mensagem...</span>
+				<span class="time"><i class="fa fa-clock-o"></i> 18:34</span>
+			  </a>
+			</li>
+			<li class="divider"></li>
+			<li class="message-preview">
+			  <a href="#">
+				<span class="avatar"><img src="http://placehold.it/50x50"></span>
+				<span class="name">José da Silva:</span>
+				<span class="message">Pergunta do alunos via mensagem...</span>
+				<span class="time"><i class="fa fa-clock-o"></i> 18:34</span>
+			  </a>
+			</li>
+			<li class="divider"></li>
+			<li class="message-preview">
+			  <a href="#">
+				<span class="avatar"><img src="http://placehold.it/50x50"></span>
+				<span class="name">José da Silva:</span>
+				<span class="message">Pergunta do alunos via mensagem...</span>
+				<span class="time"><i class="fa fa-clock-o"></i> 18:34</span>
+			  </a>
+			</li>
+			<li class="divider"></li>
+			<li><a href="#">Ver todas</a></li>
+		  </ul>
+		</li>
+		<li class="dropdown alerts-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> Alertas <span class="label label-danger">2</span> <b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			<li><a href="#">Atividade <span class="label label-default">Lembrete</span></a></li>
+			<li><a href="#">Notas <span class="label label-danger">Importante</span></a></li>
+			<li class="divider"></li>
+			<li><a href="#">Ver Mais</a></li>
+		  </ul>
+		</li>
+		<li class="dropdown user-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Prf. Demonstração <b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			<li><a href="#"><i class="fa fa-user"></i> Meus dados</a></li>
+			<li><a href="#"><i class="fa fa-envelope"></i> Mensagens <span class="badge">3</span></a></li>
+			<li><a href="#"><i class="fa fa-gear"></i> Configurações</a></li>
+			<li class="divider"></li>
+			<li><a href="login.html"><i class="fa fa-power-off"></i> Sair</a></li>
+		  </ul>
+		</li>
+	  </ul>
+	</div><!-- /.navbar-collapse -->
+</nav>
 
-      <div id="page-wrapper">
+  <div id="page-wrapper">
 
-        <div class="row">
-          <div class="alert alert-success alert-dismissable">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            Bem-vindo ao Sistema de Gestão Acadêmica!
-          </div>
-          <div class="col-lg-12">
-            <h1>Painel <small>Atividades Recentes</small></h1>
-            <ol class="breadcrumb">
-              <li class="active"><i class="fa fa-dashboard"></i> Atividades</li>
-            </ol>
-          </div>
-        </div><!-- /.row -->
+	<div class="row">
+	  <div class="alert alert-success alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		Bem-vindo ao Sistema de Gestão Acadêmica!
+	  </div>
+	  <div class="col-lg-12">
+		<h1>Painel <small>Atividades Recentes</small></h1>
+		<ol class="breadcrumb">
+		  <li class="active"><i class="fa fa-dashboard"></i> Atividades</li>
+		</ol>
+	  </div>
+	</div><!-- /.row -->
 
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="panel panel-default">
-              <div class="panel-heading"><b>Notícias</b></div>
-              <div class="panel-body">
-                <div class="media">
-                  <a class="pull-left" href="#">
-                    <img class="media-object" src="../img/new.png" alt="imagem">
-                  </a>
-                  <div class="media-body">
-                    <h4 class="media-heading">Cabeçalho conteúdo</h4>
-                    Descrição da notícia no feed, apresentado na tela principal do SGA.
-                    <br/><span class="label label-success">01/11/2013</span>
-                  </div>
-                </div>
-                <hr />
-                <div class="media">
-                  <a class="pull-left" href="#">
-                    <img class="media-object" src="../img/new.png" alt="imagem">
-                  </a>
-                  <div class="media-body">
-                    <h4 class="media-heading">Cabeçalho conteúdo</h4>
-                    Descrição da notícia no feed, apresentado na tela principal do SGA.
-                    <br/><span class="label label-success">01/11/2013</span>
-                  </div>
-                </div>
-                <hr />  
-                <div class="media">
-                  <a class="pull-left" href="#">
-                    <img class="media-object" src="../img/new.png" alt="imagem">
-                  </a>
-                  <div class="media-body">
-                    <h4 class="media-heading">Cabeçalho conteúdo</h4>
-                    Descrição da notícia no feed, apresentado na tela principal do SGA.
-                    <br/><span class="label label-success">01/11/2013</span>
-                  </div>
-                </div>
-                <hr />
-              </div>  
-            </div>
-          </div> <!-- /. News -->
-          <div class="col-lg-4">
-            <div class="col-lg-12">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-12" >
-                    <table class="table-condensed table-bordered table-striped" >
-                      <thead>
-                        <tr>
-                          <th colspan="7">
-                            <span class="btn-group" style="margin-left: 9%;">
-                              <a class="btn"><i class="glyphicon glyphicon-arrow-left"></i></a>
-                              <a class="btn active">Novembro 2013</a>
-                              <a class="btn"><i class="glyphicon glyphicon-arrow-right"></i></a>
-                            </span>
-                          </th>
-                        </tr>
-                        <tr>
-                          <th>Dom</th>
-                          <th>Seg</th>
-                          <th>Ter</th>
-                          <th>Qua</th>
-                          <th>Qui</th>
-                          <th>Sex</th>
-                          <th>Sab</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="muted">29</td>
-                          <td class="muted">30</td>
-                          <td class="muted">31</td>
-                          <td>1</td>
-                          <td>2</td>
-                          <td>3</td>
-                          <td>4</td>
-                        </tr>
-                        <tr>
-                          <td  class="btn-info"><strong>5</strong></td>
-                          <td>6</td>
-                          <td>7</td>
-                          <td>8</td>
-                          <td  class="btn-warning"><strong>9</strong></td>
-                          <td>10</td>
-                          <td>11</td>
-                        </tr>
-                        <tr>
-                          <td>12</td>
-                          <td>13</td>
-                          <td>14</td>
-                          <td>15</td>
-                          <td>16</td>
-                          <td>17</td>
-                          <td>18</td>
-                        </tr>
-                        <tr>
-                          <td>19</td>
-                          <td>20</td>
-                          <td>21</td>
-                          <td>22</td>
-                          <td>23</td>
-                          <<td  class="btn-danger"><strong>24</strong></td>
-                          <td  class="btn-success"><strong>25</strong></td>
-                        </tr>
-                        <tr>
-                          <td>26</td>
-                          <td>27</td>
-                          <td>28</td>
-                          <td>29</td>
-                          <td class="muted">1</td>
-                          <td class="muted">2</td>
-                          <td class="muted">3</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12" >
-              <div style="padding: 7%">
-                <p><span class="label label-info">05</span>&nbsp;
-                  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
-                  <span class="label label-default">Atividade Turma A</span>
-                </p>
-                <p><span class="label label-warning">09</span>&nbsp;
-                  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
-                  <span class="label label-default">Atividade Turma A</span>
-                </p>
-                <p><span class="label label-danger">24</span>&nbsp;
-                  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
-                  <span class="label label-default">Atividade Turma A</span>
-                </p>
-                <p><span class="label label-success">25</span>&nbsp;
-                  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
-                  <span class="label label-default">Atividade Turma A</span>
-                </p>
-              </div>
-            </div>
-          </div> <!-- /. Side News -->
-        </div><!-- /.row -->
-        <div class="row">
-        </div><!-- /.row -->
+	<div class="row">
+	  <div class="col-lg-8">
+		<div class="panel panel-default">
+		  <div class="panel-heading"><b>Notícias</b></div>
+		  <div class="panel-body">
+			<div class="media">
+			  <a class="pull-left" href="#">
+				<img class="media-object" src="../img/new.png" alt="imagem">
+			  </a>
+			  <div class="media-body">
+				<h4 class="media-heading">Cabeçalho conteúdo</h4>
+				Descrição da notícia no feed, apresentado na tela principal do SGA.
+				<br/><span class="label label-success">01/11/2013</span>
+			  </div>
+			</div>
+			<hr />
+			<div class="media">
+			  <a class="pull-left" href="#">
+				<img class="media-object" src="../img/new.png" alt="imagem">
+			  </a>
+			  <div class="media-body">
+				<h4 class="media-heading">Cabeçalho conteúdo</h4>
+				Descrição da notícia no feed, apresentado na tela principal do SGA.
+				<br/><span class="label label-success">01/11/2013</span>
+			  </div>
+			</div>
+			<hr />
+			<div class="media">
+			  <a class="pull-left" href="#">
+				<img class="media-object" src="../img/new.png" alt="imagem">
+			  </a>
+			  <div class="media-body">
+				<h4 class="media-heading">Cabeçalho conteúdo</h4>
+				Descrição da notícia no feed, apresentado na tela principal do SGA.
+				<br/><span class="label label-success">01/11/2013</span>
+			  </div>
+			</div>
+			<hr />
+		  </div>
+		</div>
+	  </div> <!-- /. News -->
+	  <div class="col-lg-4">
+		<div class="col-lg-12">
+			<table class="table-condensed table-bordered table-striped" style="width:100%;">
+				<thead>
+					<tr>
+					  <th colspan="7" >
+						<a class="btn"><i class="icon-chevron-left"></i></a>
+						<a class="btn" style="width:77%;">Fevereiro 2013</a>
+						<a class="btn"><i class="icon-chevron-right"></i></a>
+					  </th>
+					</tr>
+					<tr>
+						<th>DOM</th>
+						<th>SEG</th>
+						<th>TER</th>
+						<th>QUA</th>
+						<th>QUI</th>
+						<th>SEX</th>
+						<th>SAB</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="muted">29</td>
+						<td class="muted">30</td>
+						<td class="muted">31</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td><span class="label label-primary">5</span></td>
+						<td>6</td>
+						<td>7</td>
+						<td>8</td>
+						<td><span class="label label-warning">9</span></td>
+						<td>10</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>13</td>
+						<td>14</td>
+						<td>15</td>
+						<td>16</td>
+						<td>17</td>
+						<td>18</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td><strong>20</strong></td>
+						<td>21</td>
+						<td>22</td>
+						<td>23</td>
+						<td><span class="label label-success">24</span></td>
+						<td><span class="label label-default">25</span></td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>27</td>
+						<td>28</td>
+						<td>29</td>
+						<td class="muted">1</td>
+						<td class="muted">2</td>
+						<td class="muted">3</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-lg-12" >
+		  <div style="padding: 7%">
+			<p><span class="label label-info">05</span>&nbsp;
+			  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
+			  <span class="label label-default">Atividade calendário Turma A</span>
+			</p>
+			<p><span class="label label-warning">09</span>&nbsp;
+			  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
+			  <span class="label label-default">Atividade calendário Turma A</span>
+			</p>
+			<p><span class="label label-danger">24</span>&nbsp;
+			  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
+			  <span class="label label-default">Atividade calendário Turma A</span>
+			</p>
+			<p><span class="label label-success">25</span>&nbsp;
+			  <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;
+			  <span class="label label-default">Atividade calendário Turma A</span>
+			</p>
+		  </div>
+		</div>
+	  </div> <!-- /. Side News -->
+	</div><!-- /.row -->
+	<div class="row">
+	</div><!-- /.row -->
 
-        <div class="row">
-        </div><!-- /.row -->
+	<div class="row">
+	</div><!-- /.row -->
 
-      </div><!-- /#page-wrapper -->
+  </div><!-- /#page-wrapper -->
 
-    </div><!-- /#wrapper -->
-
-    <script src="../js/vendor/raphael-min.js"></script>
-    <script src="../js/vendor/morris-0.4.3.min.js"></script>
-    <script src="../js/morris/chart-data-morris.js"></script>
-    <script src="../js/tablesorter/jquery.tablesorter.js"></script>
-    <script src="../js/tablesorter/tables.js"></script>
-  </body>
-  </html>
+</div><!-- /#wrapper -->
+<script src="../js/vendor/raphael-min.js"></script>
+<script src="../js/vendor/morris-0.4.3.min.js"></script>
+<script src="../js/morris/chart-data-morris.js"></script>
+<script src="../js/tablesorter/jquery.tablesorter.js"></script>
+<script src="../js/tablesorter/tables.js"></script>
+</body>
+</html>
